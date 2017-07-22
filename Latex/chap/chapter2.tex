@@ -1,19 +1,28 @@
-In dieser Aufgabe berechnen wir die Aktivität des Cs Präparates.
-Hierbei gilt die Formel:
+In diesem Versuchsteil berechnen wir die Differenz der Brechungsindizes der Glimmplättchen aus versuch 1. Hierzu nutzen wir das Verhältnis zwischen größtem und kleinstem Radius. Wie man bereits in Aufgabe 1 sehen kann sind die entstehenden Graphen Rotationssymmetrisch, weswegen es ausreicht das Verhältnis zwischen kleinstem und größtem Messwert zu betrachten. Aus diesem Verhältnis $ \frac{b}{a} $ kann mit $ \frac{b^2}{a^2}=\frac{r_{min}}{r_{max}} $ und $ \Delta\phi=2\cdot \arctan\left( \frac{b}{a}\right)  $ die Phasendifferenz $ \Delta\phi $ berechnen. Zusammen mit 
 \begin{align*}
-A=\dfrac{N-N_{grund}}{(1-p_{tot})\cdot p_{nw}}
+\Delta\text{n}=\frac{\lambda\cdot\Delta\phi}{2\pi\cdot d}
 \end{align*}
-Wobei $ N_{grund}=8242 $ die Anzahl an Messwerten ist, die durch das Untergrundspektrum hinzukommt.
+ergibt sich somit:
+\begin{align*}
+\Delta\text{n}=\frac{\lambda\cdot \arctan\left( \sqrt{\frac{r_{min}}{r_{max}}}\right)}{\pi\cdot d}
+\end{align*}
+Hierbei ist d die Dicke des Plättchens und $ r_{min}/r_{max} $ der kleinste bzw. größte Messwert. $ \lambda $ ist aufgrund des verwendeten Filters als 630$ \; $nm annehmbar.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{../Daten/Aufgabe_2.png}
+	\caption{Skizze zur Veranschaulichung der Rechnung [Quelle: Musterprotokoll]}
+\end{figure}
+Somit können wir nun die gesuchte Brechzahldifferenz berechnen.
 \begin{center}
-	Tabelle 1: Messwerte zu Aufgabe 2
+	Tabelle 1: Brechzahldifferenzen der gemessenen Plättchen
 \end{center}
 \begin{center}
-	\begin{tabular}{c|c|c|c|c}
-		Abstand in cm & Totzeit $p_{tot}$ in \% & Nachweisw. $p_{nw}$ in \% & Messwerte N & Aktivität in Bq \\ \hline
-		1       &          24,24          &            5,0            &   995460    &      86872      \\
-		3       &           8,9           &            1,2            &   353885    &     105392      \\
-		6       &           3,4           &            0,4            &   143751    &     116899
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Dicke d  & 60$\;\mu$m & 50$\;\mu$m \\ \hline
+		r$_{min}$ & 8,75$\;$mV & 8,05$\;$mV \\ \hline
+		r$_{max}$ & 11,6$\;$mV & 9,15$\;$mV \\ \hline
+		$\Delta$n &   0,0024   &   0,003    \\ \hline
 	\end{tabular} 
 \end{center}
-
-Man würde hierbei erwarten, dass die Aktivitäten unabhängig vom Abstand konstant bleiben. Dies ist hier nicht der Fall, da scheinbar ein weiterer Abstands-abhängiger Faktor hinzukommt. Wir halten es für wahrscheinlich, dass die Tabelle zur Nachweiswahrscheinlichkeit nicht optimal auf den Versuch abgestimmt ist, weswegen der Abstand ungewollter weise einen Einfluss auf die Aktivität hat.
+Diese Werte passen zwar recht gut zueinander, vergleicht man sie jedoch mit den Ergebnissen aus dem Musterprotokoll($ \Delta n_{muster}\approx0,15 $) stellt man fest, dass die von uns errechneten Werte um etwa zwei Größenordnungen zu klein sind. Wir vermuten, dass dies an den bereits in Versuch 1 erwähnten Problemen an der Messapertur liegt.
