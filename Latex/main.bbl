@@ -1,0 +1,25 @@
+\begin{thebibliography}{Hec05}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem [{Hec05}]{HECHT5}
+\btxnamefont {\btxlastnamefont {Hecht}, Eugene}\btxauthorcolon\ \btxtitlefont
+  {Optik}.
+\newblock \btxpublisherfont {Oldenbourg}, München, \btxeditionnumlong {4.,
+  überarb. aufl.}{}, 2005\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {3-486-27359-0}}}.
+\newblock {\latintext
+  \btxurlfont{http://www.gbv.de/dms/ilmenau/toc/394397789hecht.PDF}}.
+
+\end{thebibliography}
