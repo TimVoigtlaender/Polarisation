@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.7.21)  31 JUL 2017 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.7.21)  31 JUL 2017 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2319,19 +2319,22 @@ File: ../Data/Bilder/DSC00259.JPG Graphic file (type jpg)
 <use ../Data/Bilder/DSC00259.JPG>
 Package pdftex.def Info: ../Data/Bilder/DSC00259.JPG used on input line 4.
 (pdftex.def)             Requested size: 427.43153pt x 284.95442pt.
-File: ../Data/Bilder/DSC00259.JPG Graphic file (type jpg)
- <use ../Data/Bilder/DSC00259.JPG>
-Package pdftex.def Info: ../Data/Bilder/DSC00259.JPG used on input line 9.
+
+<../Data/Bilder/DSC00242.JPG, id=208, 1129.88983pt x 753.25989pt>
+File: ../Data/Bilder/DSC00242.JPG Graphic file (type jpg)
+
+<use ../Data/Bilder/DSC00242.JPG>
+Package pdftex.def Info: ../Data/Bilder/DSC00242.JPG used on input line 9.
 (pdftex.def)             Requested size: 427.43153pt x 284.95442pt.
 
-<../Data/Bilder/DSC00261.JPG, id=208, 1129.88983pt x 753.25989pt>
+<../Data/Bilder/DSC00261.JPG, id=209, 1129.88983pt x 753.25989pt>
 File: ../Data/Bilder/DSC00261.JPG Graphic file (type jpg)
 
 <use ../Data/Bilder/DSC00261.JPG>
 Package pdftex.def Info: ../Data/Bilder/DSC00261.JPG used on input line 14.
 (pdftex.def)             Requested size: 427.43153pt x 284.95442pt.
 
-<../Data/Bilder/DSC00252.JPG, id=209, 1129.88983pt x 753.25989pt>
+<../Data/Bilder/DSC00252.JPG, id=210, 1129.88983pt x 753.25989pt>
 File: ../Data/Bilder/DSC00252.JPG Graphic file (type jpg)
 
 <use ../Data/Bilder/DSC00252.JPG>
@@ -2361,7 +2364,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 134.
- [13 <../Data/Bilder/DSC00259.JPG>]
+ [13 <../Data/Bilder/DSC00259.JPG> <../Data/Bilder/DSC00242.JPG>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2370,8 +2373,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 134.
-
-[14 <../Data/Bilder/DSC00261.JPG> <../Data/Bilder/DSC00252.JPG>] (./main.bbl
+ [14 <../Data/Bilder/DSC00261.JPG> <../Data/Bilder/DSC00252.JPG>] (./main.bbl
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2422,10 +2424,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 36386 strings out of 492995
- 708994 string characters out of 6138756
+ 36391 strings out of 492995
+ 709133 string characters out of 6138756
  908814 words of memory out of 5000000
- 39143 multiletter control sequences out of 15000+600000
+ 39147 multiletter control sequences out of 15000+600000
  651480 words of font info for 154 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  71i,20n,68p,10428b,973s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2446,10 +2448,10 @@ ublic/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/f
 onts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic
 /uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (18 pages, 22538858 bytes).
+Output written on main.pdf (18 pages, 24434388 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
+ 318 PDF objects out of 1000 (max. 8388607)
  260 compressed objects within 3 object streams
  52 named destinations out of 1000 (max. 500000)
- 38088 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 38093 words of extra memory for PDF output out of 42996 (max. 10000000)
 
